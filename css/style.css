@@ -1,18 +1,20 @@
-.container{
+.container {
     max-width: 1320px;
     margin: 0 auto;
-        display: flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
-*{
+
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-body{
-     background: #d1fffd;
+
+body {
+    background: #d1fffd;
 }
 
 
@@ -21,13 +23,13 @@ body{
     height: 600.4px;
     background: #000;
     border-radius: 60px;
-    overflow: hidden;
+    /* overflow: hidden; */
     padding: 10px 13px;
     padding-left: 14px;
     margin-top: 50px;
 }
 
-.display{
+.display {
     width: 100%;
     height: 250px;
     position: relative;
@@ -46,6 +48,7 @@ body{
     font-weight: 400;
     border: none;
 }
+
 .display .menu {
     color: orange;
     font-size: 17px;
@@ -57,23 +60,23 @@ body{
 
 
 
-.buttonpart{
-width: 100%;
-height: 350px;
+.buttonpart {
+    width: 100%;
+    height: 350px;
 
 }
 
-.first{
+.first {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    margin-bottom:6px;
+    margin-bottom: 6px;
     text-align: center;
 }
 
 
-.first button{
+.first button {
     width: 56px;
     height: 56px;
     border-radius: 50%;
@@ -85,57 +88,68 @@ height: 350px;
     transition: .4s;
 }
 
-.first button:hover{
+.first button:hover {
     background-color: rgb(53, 52, 52);
 }
-.second button:hover{
+
+.second button:hover {
     background-color: rgb(120, 117, 117);
 }
-.third button:hover{
+
+.third button:hover {
     background-color: rgb(120, 117, 117);
 }
-.four2 button:hover{
+
+.four2 button:hover {
     background-color: rgb(120, 117, 117);
 }
-.five2 button:hover{
+
+.five2 button:hover {
     background-color: rgb(120, 117, 117);
 }
-.first button:active{
+
+.first button:active {
     background-color: rgb(255, 255, 255);
 }
 
 
-.first button:last-child{
+.first button:last-child {
     background: orange;
 }
-.second button:last-child{
+
+.second button:last-child {
     background: orange;
 }
-.third button:last-child{
+
+.third button:last-child {
     background: orange;
 }
-.four2 button:last-child{
+
+.four2 button:last-child {
     background: orange;
 }
-.five2 button:last-child{
+
+.five2 button:last-child {
     background: orange;
 }
-button:last-child:hover{
+
+button:last-child:hover {
     background: rgb(223, 172, 76);
 }
 
 
-.second{
+.second {
     display: flex;
-justify-content: space-between;
-align-items: center;
-width: 100%;
- margin-bottom:6px;
- text-align: center;
-     transition: .4s;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 6px;
+    text-align: center;
+    transition: .4s;
 }
-.second button{
-        width: 56px;
+
+.second button {
+    width: 56px;
     height: 56px;
     border-radius: 50%;
     background: rgb(48, 48, 48);
@@ -145,87 +159,89 @@ width: 100%;
     cursor: pointer;
 }
 
-.third{
+.third {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
-     margin-bottom:6px;
-         transition: .4s;
-  
+    margin-bottom: 6px;
+    transition: .4s;
+
 }
-.third button{
+
+.third button {
     width: 56px;
     height: 56px;
     border-radius: 50%;
-   background: rgb(48, 48, 48);
+    background: rgb(48, 48, 48);
     color: #fff;
     font-size: 25px;
     border: none;
     cursor: pointer;
- text-align: center;
-     transition: .4s;
+    text-align: center;
+    transition: .4s;
 }
 
 
-.four2{
+.four2 {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
-     margin-bottom:6px;
-     text-align: center;
+    margin-bottom: 6px;
+    text-align: center;
 }
 
-.four2 button{
+.four2 button {
     width: 56px;
     height: 56px;
     border-radius: 50%;
-   background: rgb(48, 48, 48);
+    background: rgb(48, 48, 48);
     color: #fff;
     font-size: 25px;
     border: none;
     cursor: pointer;
-        transition: .4s;
+    transition: .4s;
 }
 
 
-.five2{
+.five2 {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
-     margin-bottom:6px;
-     text-align: center;
+    margin-bottom: 6px;
+    text-align: center;
 }
 
-.five2 button{
+.five2 button {
     width: 56px;
     height: 56px;
     border-radius: 50%;
-   background: rgb(48, 48, 48);
+    background: rgb(48, 48, 48);
     color: #fff;
     font-size: 25px;
     border: none;
     cursor: pointer;
-        transition: .4s;
+    transition: .4s;
 }
 
 
-.line{
+.line {
     width: 60%;
     height: 5px;
     background: #fff;
-  margin: 15px auto;
-  border-radius: 2px;
+    margin: 15px auto;
+    border-radius: 2px;
 }
 
-.five2 .del{
+.five2 .del {
     color: white;
     text-transform: uppercase;
     border: 2px solid orange;
     background: gray;
 }
+
 .error {
     font-size: 10px;
     font-weight: 800;
@@ -233,6 +249,7 @@ width: 100%;
     color: rgb(255, 255, 255);
     text-transform: capitalize;
 }
+
 .errorbox {
     background: red;
     padding: 10px 20px;
@@ -243,14 +260,85 @@ width: 100%;
     display: none;
 }
 
-.copyright h5{
+.copyright h5 {
     text-transform: capitalize;
     font-weight: 400;
-padding-top:20px;
+    padding-top: 20px;
 
 }
 
-.copyright{
+.copyright {
     text-align: center;
 }
 
+
+
+@media screen and (min-width: 320px) and (max-width : 575px) {
+    .phone {
+        width: 100vw;
+        height: 100vh;
+        margin-top: 0;
+        padding: 0px 5px 0 5px ;
+        border-radius: 0;
+    }
+
+    .phone .first {
+        justify-content: center;
+        column-gap: 5px;
+    }
+
+    .phone .second {
+        justify-content: center;
+        column-gap: 5px;
+    }
+
+    .phone .third {
+        justify-content:center;
+        column-gap: 5px;
+    }
+
+    .phone .four2 {
+        justify-content: center;
+        column-gap: 5px;
+    }
+
+    .phone .five2 {
+        justify-content: center;
+        column-gap: 5px;
+    }
+
+  .buttonpart {
+    margin-top: 30px;
+
+ 
+}
+  .buttonpart button {
+    width: 75px;
+    height: 70px;
+  
+}
+
+
+
+
+    .display input {
+        padding-top: 110px;
+
+    }
+
+   .display {
+    width: 100%;
+    height: 166px;
+}
+
+.copyright{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.display .menu {
+    top: 22px;
+ 
+}
+}
