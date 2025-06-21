@@ -1,0 +1,256 @@
+.container{
+    max-width: 1320px;
+    margin: 0 auto;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ background: #d1fffd;
+}
+
+.phone {
+    width: 293px;
+    height: 600.4px;
+    background: #000;
+    border-radius: 60px;
+    overflow: hidden;
+    padding: 10px 13px;
+    padding-left: 14px;
+    margin-top: 50px;
+}
+
+.display{
+    width: 100%;
+    height: 250px;
+    position: relative;
+}
+
+.display input {
+    width: 100%;
+    height: 100%;
+    background: #000;
+    color: #ffffff;
+    outline: none;
+    font-size: 56px;
+    padding-top: 178px;
+    text-align: right;
+
+    font-weight: 400;
+    border: none;
+}
+.display .menu {
+    color: orange;
+    font-size: 17px;
+    position: absolute;
+    top: 60px;
+    left: 0;
+}
+
+
+
+
+.buttonpart{
+width: 100%;
+height: 350px;
+
+}
+
+.first{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom:6px;
+    text-align: center;
+}
+
+
+.first button{
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background: gray;
+    color: #fff;
+    font-size: 25px;
+    border: none;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.first button:hover{
+    background-color: rgb(53, 52, 52);
+}
+.second button:hover{
+    background-color: rgb(120, 117, 117);
+}
+.third button:hover{
+    background-color: rgb(120, 117, 117);
+}
+.four2 button:hover{
+    background-color: rgb(120, 117, 117);
+}
+.five2 button:hover{
+    background-color: rgb(120, 117, 117);
+}
+.first button:active{
+    background-color: rgb(255, 255, 255);
+}
+
+
+.first button:last-child{
+    background: orange;
+}
+.second button:last-child{
+    background: orange;
+}
+.third button:last-child{
+    background: orange;
+}
+.four2 button:last-child{
+    background: orange;
+}
+.five2 button:last-child{
+    background: orange;
+}
+button:last-child:hover{
+    background: rgb(223, 172, 76);
+}
+
+
+.second{
+    display: flex;
+justify-content: space-between;
+align-items: center;
+width: 100%;
+ margin-bottom:6px;
+ text-align: center;
+     transition: .4s;
+}
+.second button{
+        width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background: rgb(48, 48, 48);
+    color: #fff;
+    font-size: 25px;
+    border: none;
+    cursor: pointer;
+}
+
+.third{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+     margin-bottom:6px;
+         transition: .4s;
+  
+}
+.third button{
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+   background: rgb(48, 48, 48);
+    color: #fff;
+    font-size: 25px;
+    border: none;
+    cursor: pointer;
+ text-align: center;
+     transition: .4s;
+}
+
+
+.four2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+     margin-bottom:6px;
+     text-align: center;
+}
+
+.four2 button{
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+   background: rgb(48, 48, 48);
+    color: #fff;
+    font-size: 25px;
+    border: none;
+    cursor: pointer;
+        transition: .4s;
+}
+
+
+.five2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+     margin-bottom:6px;
+     text-align: center;
+}
+
+.five2 button{
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+   background: rgb(48, 48, 48);
+    color: #fff;
+    font-size: 25px;
+    border: none;
+    cursor: pointer;
+        transition: .4s;
+}
+
+
+.line{
+    width: 60%;
+    height: 5px;
+    background: #fff;
+  margin: 15px auto;
+  border-radius: 2px;
+}
+
+.five2 .del{
+    color: white;
+    text-transform: uppercase;
+    border: 2px solid orange;
+    background: gray;
+}
+.error {
+    font-size: 10px;
+    font-weight: 800;
+    font-family: "Archivo", sans-serif;
+    color: rgb(255, 255, 255);
+    text-transform: capitalize;
+}
+.errorbox {
+    background: red;
+    padding: 10px 20px;
+    border-radius: 0 20px 20px 20px;
+    position: absolute;
+    top: 24%;
+    left: 60%;
+    display: none;
+}
+
+.copyright h5{
+    text-transform: capitalize;
+    font-weight: 400;
+padding-top:20px;
+
+}
+
+.copyright{
+    text-align: center;
+}
+
