@@ -18,8 +18,9 @@
 
 
 .phone {
-    width: 293px;
-    height: 600.4px;
+  width: 90vw; 
+  max-width: 300px;
+  height: auto;
     background: #000;
     border-radius: 60px;
     padding: 10px 13px;
@@ -61,7 +62,7 @@
 
 .buttonpart {
     width: 100%;
-    height: 350px;
+    height: auto;
 
 }
 
@@ -311,10 +312,9 @@ button:last-child:hover {
 
  
 }
-  .buttonpart button {
-    width: 75px;
-    height: 70px;
-  
+.buttonpart button {
+  max-width: 100%;
+  flex: 1;
 }
 
 
@@ -350,6 +350,7 @@ button:last-child:hover {
 @media screen and (min-width: 350px) and (max-width : 450px) {
     .phone {
         width: 100vw;
+        height: 100vh;
         margin-top: 0;
         padding: 0px 5px 0 5px ;
         border-radius: 0;
@@ -385,10 +386,11 @@ button:last-child:hover {
 
  
 }
-  .buttonpart button {
-    width: 23%;
-   height: 70px;
-  
+.buttonpart button {
+  width: 22%;
+  height: auto;
+  aspect-ratio: 1 / 1;
+  font-size: 1.5rem;
 }
 
 
@@ -424,6 +426,7 @@ button:last-child:hover {
 @media screen and (min-width: 450px) and (max-width : 500.99px) {
     .phone {
         width: 100vw;
+        height: 100vh;
         margin-top: 0;
         padding: 0px 5px 0 5px ;
         border-radius: 0;
@@ -459,9 +462,9 @@ button:last-child:hover {
 
  
 }
-  .buttonpart button {
-    width: 25%;
-   height: 80px;
+.buttonpart button {
+  max-width: 100%;
+  flex: 1;
   font-size: 35px;
 }
 
@@ -536,8 +539,8 @@ button:last-child:hover {
  
 }
   .buttonpart button {
-    width: 25%;
-   height: 75px;
+  max-width: 100%;
+  flex: 1;
   font-size: 35px;
 }
 
@@ -569,4 +572,56 @@ button:last-child:hover {
 .line{
     display: none;
 }
+}
+
+.buttonpart {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  padding: 7px 0;
+}
+.buttonpart .del{
+     color: white;
+    text-transform: uppercase;
+    border: 2px solid orange;
+   
+}
+
+.buttonpart button {
+  aspect-ratio: 1 / 1;
+  width: 100%;
+  font-size: 1.5rem;
+  border-radius: 50%;
+  border: none;
+  background-color: #333;
+  color: white;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.buttonpart button.orange {
+  background-color: orange;
+  color: white;
+}
+
+.buttonpart button.gray {
+  background-color: gray;
+}
+
+.buttonpart button:hover {
+  background-color: #555;
+}
+.buttonpart button.white{
+    background: gray;
+}
+
+@media (max-width: 500px) {
+  .buttonpart {
+    gap: 8px;
+    padding: 10px;
+  }
+
+  .buttonpart button {
+    font-size: 1.4rem;
+  }
 }
