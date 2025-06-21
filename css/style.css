@@ -350,7 +350,6 @@ button:last-child:hover {
 @media screen and (min-width: 350px) and (max-width : 450px) {
     .phone {
         width: 100vw;
-        height: 100vh;
         margin-top: 0;
         padding: 0px 5px 0 5px ;
         border-radius: 0;
@@ -382,7 +381,7 @@ button:last-child:hover {
     }
 
   .buttonpart {
-    margin-top: 30px;
+    margin-top: 53px;
 
  
 }
@@ -425,7 +424,6 @@ button:last-child:hover {
 @media screen and (min-width: 450px) and (max-width : 500.99px) {
     .phone {
         width: 100vw;
-        height: 100vh;
         margin-top: 0;
         padding: 0px 5px 0 5px ;
         border-radius: 0;
