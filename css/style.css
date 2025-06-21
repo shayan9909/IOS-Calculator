@@ -273,7 +273,7 @@ button:last-child:hover {
 
 
 
-@media screen and (min-width: 320px) and (max-width : 575px) {
+@media screen and (min-width: 320px) and (max-width : 350px) {
     .phone {
         width: 100vw;
         height: 100vh;
@@ -330,6 +330,233 @@ button:last-child:hover {
    .display {
     width: 100%;
     height: 166px;
+}
+
+.copyright{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.display .menu {
+    top: 22px;
+ 
+}
+.line{
+    display: none;
+}
+}
+
+
+@media screen and (min-width: 350px) and (max-width : 450px) {
+    .phone {
+        width: 100vw;
+        height: 100vh;
+        margin-top: 0;
+        padding: 0px 5px 0 5px ;
+        border-radius: 0;
+    }
+
+    .phone .first {
+        justify-content: center;
+        column-gap: 5px;
+    }
+
+    .phone .second {
+        justify-content: center;
+        column-gap: 5px;
+    }
+
+    .phone .third {
+        justify-content:center;
+        column-gap: 5px;
+    }
+
+    .phone .four2 {
+        justify-content: center;
+        column-gap: 5px;
+    }
+
+    .phone .five2 {
+        justify-content: center;
+        column-gap: 5px;
+    }
+
+  .buttonpart {
+    margin-top: 30px;
+
+ 
+}
+  .buttonpart button {
+    width: 23%;
+   height: 70px;
+  
+}
+
+
+
+
+    .display input {
+        padding-top: 110px;
+        border-radius: 0;
+
+    }
+
+   .display {
+    width: 100%;
+    height: 166px;
+}
+
+.copyright{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.display .menu {
+    top: 22px;
+ 
+}
+.line{
+    display: none;
+}
+}
+
+
+@media screen and (min-width: 450px) and (max-width : 500.99px) {
+    .phone {
+        width: 100vw;
+        height: 100vh;
+        margin-top: 0;
+        padding: 0px 5px 0 5px ;
+        border-radius: 0;
+    }
+
+    .phone .first {
+        justify-content: center;
+        column-gap: 5px;
+    }
+
+    .phone .second {
+        justify-content: center;
+        column-gap: 5px;
+    }
+
+    .phone .third {
+        justify-content:center;
+        column-gap: 5px;
+    }
+
+    .phone .four2 {
+        justify-content: center;
+        column-gap: 5px;
+    }
+
+    .phone .five2 {
+        justify-content: center;
+        column-gap: 5px;
+    }
+
+  .buttonpart {
+    /* margin-top: 30px; */
+
+ 
+}
+  .buttonpart button {
+    width: 25%;
+   height: 80px;
+  font-size: 35px;
+}
+
+
+
+
+.display input {
+    padding-top: 80px;
+    border-radius: 0;
+    padding-bottom: 40px;
+    font-size: 70px;
+}
+
+   .display {
+    width: 100%;
+    height: 148px;
+}
+
+.copyright{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.display .menu {
+    top: 22px;
+ 
+}
+.line{
+    display: none;
+}
+}
+
+
+@media screen and (min-width: 500px) and (max-width : 575.99px) {
+    .phone {
+        width: 100vw;
+        height: 100vh;
+        margin-top: 0;
+        padding: 0px 5px 0 5px ;
+        border-radius: 0;
+    }
+
+    .phone .first {
+        justify-content: center;
+        column-gap: 5px;
+    }
+
+    .phone .second {
+        justify-content: center;
+        column-gap: 5px;
+    }
+
+    .phone .third {
+        justify-content:center;
+        column-gap: 5px;
+    }
+
+    .phone .four2 {
+        justify-content: center;
+        column-gap: 5px;
+    }
+
+    .phone .five2 {
+        justify-content: center;
+        column-gap: 5px;
+    }
+
+  .buttonpart {
+    /* margin-top: 30px; */
+
+ 
+}
+  .buttonpart button {
+    width: 25%;
+   height: 75px;
+  font-size: 35px;
+}
+
+
+
+
+.display input {
+    padding-top: 80px;
+    border-radius: 0;
+    padding-bottom: 40px;
+    font-size: 70px;
+}
+
+.display {
+    width: 100%;
+    height: 172px;
 }
 
 .copyright{
