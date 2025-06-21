@@ -19,13 +19,14 @@
 
 .phone {
   width: 90vw; 
-  max-width: 300px;
+width: 300px;
   height: auto;
     background: #000;
     border-radius: 60px;
     padding: 10px 13px;
     padding-left: 14px;
     margin-top: 50px;
+
 }
 
 .display {
@@ -265,6 +266,7 @@
         margin-top: 0;
         padding: 0px 5px 0 5px ;
         border-radius: 0;
+        overflow: hidden;
     }
 
     .phone .first {
@@ -359,6 +361,7 @@
   color: white;
   font-weight: 500;
   transition: 0.3s;
+  cursor: pointer;
 }
 
 .buttonpart button.orange {
@@ -370,9 +373,19 @@
   background-color: gray;
 }
 
-.buttonpart button:hover {
-  background-color: #555;
+
+.buttonpart button.white:hover{
+  background-color: #636161;
 }
+
+
+.buttonpart button.orange:hover{
+      background-color: rgb(241, 180, 65);
+}
+.buttonpart button:hover{
+    background: #939292;
+}
+
 .buttonpart button.white{
     background: gray;
 }
@@ -383,7 +396,7 @@
     padding: 10px;
   }
 
-  .buttonpart button {
-    font-size: 1.4rem;
-  }
+ .buttonpart button {
+	font-size: 2.4rem;
+}
 }
